@@ -1,0 +1,98 @@
+
+
+.button{
+    font-family:Arial;
+    font-size:16px;
+    border-style:solid;
+    border-radius:3px;
+    border-width:2px;
+    border-color:black;
+    padding:5px;
+}
+.button:hover{
+    font-family:Arial;
+    font-size:16px;
+    border-style:solid;
+    border-radius:3px;
+    border-width:2px;
+    border-color:white;
+    padding:5px;
+    background-color:black;
+    color:white;
+}
+input[type=text]{
+    font-family:Arial;
+    font-size:14px;
+    padding:6px;
+    color:black;
+}
+textarea{
+    font-family:Arial;
+    font-size:14px;
+    padding:6px;
+    color:black;
+}
+
+#banner{
+    margin:0 auto;
+    width:99%;
+    height:35px;
+    background-color:#353a40;
+    padding:15px 15px 0px 0px;
+}
+#limb{
+    font-family:Arial;
+    font-size:18px;
+    color:white;
+    font-style:italic;
+    padding:20px;
+    font-weight:lighter;
+}
+#hyperbuttons{
+    font-family:Arial;
+    font-weight:bold; 
+    font-size:18px;
+    color:white;
+    text-decoration:none; 
+    padding:10px;
+}
+#hyperbuttons:hover{
+    background-color:white;
+    border-color:black;
+    color:black;
+}
+#contain{
+    padding:5px;
+    background-color:grey;
+    border-style:solid;
+    border-color:black;
+    border-radius:5px;
+    border-width:3px;
+    width:40%;
+}
+#lab{
+    font-family:Arial;
+    font-weight:bold;
+    font-size:16px;
+    color:black;
+    padding:5px;
+}
+#messageUpdateNotification{
+    background-color:coral;
+    padding:5px;
+    border-radius:3px;
+}
+#entryName{
+    padding:5px 10px 5px 10px;
+    background-color:orange;
+    border-color:black;
+    border-width:2px;
+    border-radius:3px;
+}
+#entryDate{
+     padding:5px 10px 5px 10px;
+    background-color:lightgreen;
+    border-color:black;
+    border-width:2px;
+    border-radius:3px;
+}
