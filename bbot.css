@@ -96,3 +96,156 @@ textarea{
     border-width:2px;
     border-radius:3px;
 }
+input:focus {
+    outline:none;
+}
+h1{
+    font-family:Arial;
+    color:black
+    
+}
+body{
+    background-color:#e3e3e3;
+}
+
+::placeholder { 
+     font-family:Arial;
+     font-size:14px;
+     color:white;
+}
+#banner{
+    margin:0 auto;
+    width:99%;
+    height:35px;
+    background-color:#353a40;
+    padding:15px 15px 0px 0px;
+  
+}
+#limb{
+    font-family:Arial;
+    font-size:18px;
+    color:white;
+    font-style:italic;
+    padding:20px;
+    font-weight:lighter;
+}
+#hyperbuttons{
+    font-family:Arial;
+    font-weight:bold; 
+    font-size:18px;
+    color:white;
+    text-decoration:none; 
+    padding:10px;
+}
+#hyperbuttons:hover{
+    background-color:white;
+    border-color:black;
+    color:black;
+}
+#btn{
+   box-shadow: 10px 10px 10px black;
+   border-style:solid;
+   border-radius:4px;
+   border-width:3px;
+   border-color:black;
+   
+   padding:10px;
+   background-color:green;
+   
+   width:200px;
+   
+   font-family:Arial;
+   font-size:14px;
+   font-weight:bold;
+}
+
+#clr{
+   box-shadow: 10px 10px 10px black;
+   border-style:solid;
+   border-radius:4px;
+   border-width:3px;
+   border-color:black;
+   
+   padding:10px;
+   background-color:white;
+   width:200px;
+   
+   font-family:Arial;
+   font-size:14px;
+   font-weight:bold;
+}
+#name{
+   border-style:solid;
+   border-radius:4px;
+   border-width:3px;
+   border-color:black;
+   padding:10px;
+   background-color:gray;
+   color:white;
+}
+#message{
+  border-style:solid;
+   border-radius:4px;
+   border-width:3px;
+   border-color:black;
+   width:370px;
+   background-color:gray;
+   color:white;
+   padding:15px;
+   outline:none;
+}
+#nm{
+  font-size:16px;
+  font-weight:bold;
+  padding:5px 0px 5px 0px;
+}
+#msg{
+  font-size:14px;
+}
+#container{
+     font-family:Arial;
+     border-style:solid;
+     border-radius:4px;
+     border-width:3px;
+     border-color:black;
+     background-color:gray;
+     color:white;
+     padding:10px;
+}
+#date{
+    padding:0px 0px 0px 10px;
+}
+#welcomeMsg{
+    margin:2px;
+    font-family:Arial;
+    color:black;
+    font-size:18px;
+    font-weight:bold;
+    padding:5px 5px 5px 0px;
+}
+
+#logout{
+    float:right;
+    border-color:black;
+    box-shadow: 4px 4px 4px black;
+    border-style: solid;
+    border-radius:2px;
+    padding:4px;
+    color:white;
+    background-color:grey;
+    font-family:Arial;
+    font-size:18px;
+    font-weight:bold;
+    text-decoration: none;
+}
+#profile{
+    font-family: Arial;
+    font-size:18px;
+    text-align: center;
+}
+#profileHeader{
+    font-family: Arial;
+    font-size:24px;
+    font-weight: bold;
+    text-align: center;
+}

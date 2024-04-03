@@ -1,5 +1,10 @@
 <?php
-
+if(!isset($_SESSION['user'])){
+    header("Location: loginpage.php");
+}else{
+    echo "<div id='banner'><a id='limb'>Tools</a><a id='hyperbuttons' href='http://dev-insili.co/cvdpcr.php'>CVD-PCR</a><a id='hyperbuttons' href='http://dev-insili.co/tailandbc.php'>Tail & BC</a><a id='hyperbuttons' href='http://dev-insili.co/BirthdayBotGUI.php'>BirthdayBot</a><a id='hyperbuttons' href='http://dev-insili.co/ajaxMessageBoard.html'>MessageBoard</a><a id='hyperbuttons' href='https://sequencescape.psd.sanger.ac.uk/login'>Sequencescape</a><a id='hyperbuttons' href='https://limber.psd.sanger.ac.uk/'>Limber</a></div><br>";
+    echo "<p id='welcomeMsg'>Hello, ".$_SESSION['user']."<a href='logout.php' id='logout'>Logout</a><a href='profile.php' id='logout'>Profile</a><a id='logout' href='ajaxMessageBoard.php'>Feed</a></p>";
+}
 $config = parse_ini_file("config.ini");
 
 $server = $config['servername'];
@@ -110,10 +115,9 @@ if(isset($_POST['updateBirthdayMessage'])){
     
 }
 
-echo "<div id='banner'><a id='limb'>Tools</a><a id='hyperbuttons' href='http://dev-insili.co/cvdpcr.php'>CVD-PCR</a><a id='hyperbuttons' href='http://dev-insili.co/tailandbc.php'>Tail & BC</a><a id='hyperbuttons' href='http://dev-insili.co/BirthdayBotGUI.php'>BirthdayBot</a><a id='hyperbuttons' href='http://dev-insili.co/ajaxMessageBoard.php'>MessageBoard</a><a id='hyperbuttons' href='https://sequencescape.psd.sanger.ac.uk/login'>Sequencescape</a><a id='hyperbuttons' href='https://limber.psd.sanger.ac.uk/'>Limber</a></div><br>";
-echo "<h1>Slack Birthday Bot</h1>";
+
 getCurrentRecords();
-echo "</div>";
+
 
 ?>
 
